@@ -4,7 +4,7 @@ Haxe-Firebase🔥
 This is a simple extern wrapper lib for firebase.
 Currently only the javascript target is supported.
 
-To get started, include This
+To get started, include
 
     <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script> 
 
