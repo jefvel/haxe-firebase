@@ -1,0 +1,10 @@
+{
+	"name": "haxe-firebase",
+	"contributors": ["jefvel"],
+	"url" : "https://github.com/jefvel/haxe-firebase",
+	"license": "MIT",
+	"tags": ["extern", "firebase", "javascript", "js", "node", "node.js"],
+	"description": "Firebase Externs for Javascript",
+	"version": "1.0.0",
+	"classPath": "Sources/"
+}
