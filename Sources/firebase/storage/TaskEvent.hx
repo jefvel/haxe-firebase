@@ -2,5 +2,5 @@ package firebase.storage;
 
 @:enum
 abstract TaskEvent(String) {
-	STATE_CHANGED = "state_changed";
+	var STATE_CHANGED = "state_changed";
 }

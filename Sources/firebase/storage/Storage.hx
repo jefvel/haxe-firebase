@@ -5,8 +5,8 @@ package firebase.storage;
 	public var maxOperationRetryTime:Int;
 	public var maxUploadRetryTime:Int;
 
-	public function ref(?path:String):firebase.Storage.Reference;
-	public function refFromURL(?url:String):firebase.Storage.Reference;
+	public function ref(?path:String):firebase.storage.Reference;
+	public function refFromURL(?url:String):firebase.storage.Reference;
 	public function setMaxOperationRetryTime(time:Int):Void;
 	public function setMaxUploadRetryTime(time:Int):Void;
 }

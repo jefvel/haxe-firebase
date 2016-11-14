@@ -7,7 +7,7 @@ package firebase;
 	public static function initializeApp(options:Dynamic):firebase.app.App;
 	public static function database(?app:firebase.app.App):firebase.database.Database;
 	public static function auth(?app:firebase.app.App):firebase.auth.Auth;
-	public static function storage(?app:firebase.app.App):Dynamic;
-	public static function messaging(?app:firebase.app.App):Dynamic;
+	public static function storage(?app:firebase.app.App):firebase.storage.Storage;
+	public static function messaging(?app:firebase.app.App):firebase.messaging.Messaging;
 	
 }

@@ -17,5 +17,5 @@ package firebase.storage;
 	public function putString(data:String, ?format:StringFormat, ?metadata:UploadMetadata):UploadTask;
 	public function toString():String;
 
-	public function updateMetadata(SettableMetadata):firebase.Promise<FullMetadata>;
+	public function updateMetadata(metadata:SettableMetadata):firebase.Promise<FullMetadata>;
 }

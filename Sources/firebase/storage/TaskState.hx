@@ -2,9 +2,9 @@ package firebase.storage;
 
 @:enum
 abstract TaskState(String) {
-	RUNNING = "running";
-	PAUSED = "paused";
-	SUCCESS = "success";
-	CANCELED = "canceled";
-	ERROR = "error";
+	var RUNNING = "running";
+	var PAUSED = "paused";
+	var SUCCESS = "success";
+	var CANCELED = "canceled";
+	var ERROR = "error";
 }

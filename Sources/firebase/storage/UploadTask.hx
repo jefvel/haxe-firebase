@@ -4,7 +4,7 @@ package firebase.storage;
 	public var snapshot:firebase.storage.UploadTaskSnapshot;
 
 	public function cancel():Bool;
-	public function catch(onRejected:Dynamic->Void):firebase.Promise<Void>;
+	//public function catch(onRejected:Dynamic->Void):firebase.Promise<Void>;
 	public function on(event:TaskEvent, ?nextOrObserver:Dynamic, ?error:Dynamic->Void, ?complete:Void->Void):Dynamic;
 	public function pause():Bool;
 	public function resume():Bool;
