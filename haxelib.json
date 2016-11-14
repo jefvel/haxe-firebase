@@ -3,8 +3,9 @@
 	"contributors": ["jefvel"],
 	"url" : "https://github.com/jefvel/haxe-firebase",
 	"license": "MIT",
-	"tags": ["extern", "firebase", "javascript", "js", "node", "node.js"],
+	"tags": ["extern", "firebase", "javascript", "js"],
 	"description": "Firebase Externs for Javascript",
 	"version": "1.0.0",
-	"classPath": "Sources/"
+	"classPath": "Sources/",
+	"releasenote": "Initial commit, barely tested but basic stuff works."
 }
