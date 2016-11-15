@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"tags": ["extern", "firebase", "javascript", "js"],
 	"description": "Firebase Externs for Javascript",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"classPath": "Sources/",
-	"releasenote": "Initial commit, barely tested but basic stuff works."
+	"releasenote": "Adding script tag manually to firebase no longer needed."
 }
