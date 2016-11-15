@@ -2,9 +2,9 @@ package firebase;
 
 @:enum
 abstract EventType(String) {
-	var value = "value";
-	var child_added = "child_added";
-	var child_changed = "child_changed";
-	var child_removed = "child_removed";
-	var child_moved = "child_moved";
+	var Value = "value";
+	var ChildAdded = "child_added";
+	var ChildChanged = "child_changed";
+	var ChildRemoved = "child_removed";
+	var ChildMoved = "child_moved";
 }

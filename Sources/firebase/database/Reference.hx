@@ -18,5 +18,6 @@ typedef TransactionResult = {
 	public function setPriority(priority:Dynamic, ?onComplete:firebase.auth.Error -> Void):firebase.Promise<Void>;
 	public function setWithPriority(value:Dynamic, priority:Dynamic, ?onComplete:firebase.auth.Error -> Void):firebase.Promise<Void>;
 	
-	public function transaction(transactionUpdate: Dynamic -> Void, ?onComplete: firebase.auth.Error -> Bool -> firebase.database.DataSnapshot -> Void, ?applyLocally:Bool):firebase.Promise<TransactionResult>;
+	public function transaction(transactionUpdate: Dynamic -> Void, ?onComplete: firebase.auth.Error -> Bool -> DataSnapshot -> Void, ?applyLocally:Bool):firebase.Promise<TransactionResult>;
+	public function update(values:Dynamic, ?onComplete:firebase.auth.Error -> Void):firebase.Promise<Void>;
 }
