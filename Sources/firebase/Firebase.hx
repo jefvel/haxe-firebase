@@ -3,7 +3,7 @@ package firebase;
 @:native("firebase") extern class Firebase {
 	static function __init__():Void {
 		#if js
-			haxe.macro.Compiler.includeFile("lib/firebase.js");
+			haxe.macro.Compiler.includeFile("../lib/firebase.js");
 		#end
 	}
 
