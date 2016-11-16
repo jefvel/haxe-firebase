@@ -9,16 +9,18 @@ on the firebase documentation: https://firebase.google.com/docs/reference/js/
 
 Example
 
-    var config = {
-			apiKey: "api-key",
-			authDomain: "domain.firebaseapp.com",
-			databaseURL: "https://databaseurl.firebaseio.com",
-			storageBucket: "bucket-id.appspot.com",
-			messagingSenderId: "messaging-sender-id"
-    };
-		
-	var app = firebase.Firebase.initializeApp(config);
-    
-    add.database().ref("test").set("wow").then(function(e) {
-        trace("Set value!");
-    });
+```haxe
+var config = {
+  apiKey: "api-key",
+  authDomain: "domain.firebaseapp.com",
+  databaseURL: "https://databaseurl.firebaseio.com",
+  storageBucket: "bucket-id.appspot.com",
+  messagingSenderId: "messaging-sender-id"
+};
+
+var app = firebase.Firebase.initializeApp(config);
+
+app.database().ref("test").set("wow").then(function(e) {
+  trace("Set value!");
+});
+```
