@@ -7,8 +7,10 @@ Currently only the javascript target is supported.
 To get started: Just run code the same way as stated
 on the firebase documentation: https://firebase.google.com/docs/reference/js/
 
-Example
 
+
+Example
+-------
 ```haxe
 var config = {
   apiKey: "api-key",
@@ -24,3 +26,9 @@ app.database().ref("test").set("wow").then(function(e) {
   trace("Set value!");
 });
 ```
+
+Notice
+------
+If you're using a haxe version older than 3.3.0, the js-classic compiler flag has to be set
+
+    -D js-classic
