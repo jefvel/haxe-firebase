@@ -1,7 +1,7 @@
 Haxe-Firebase🔥
 ==============
 
-This is a simple extern wrapper lib for firebase.
+This is a simple Haxe(3.3.0) extern wrapper lib for firebase.
 Currently only the javascript target is supported.
 
 To get started: Just run code the same way as stated
@@ -27,8 +27,8 @@ app.database().ref("test").set("wow").then(function(e) {
 });
 ```
 
-Notice
-------
+Notice for haxe <3.3.0
+----------------------
 If you're using a haxe version older than 3.3.0, the js-classic compiler flag has to be set
 
     -D js-classic
